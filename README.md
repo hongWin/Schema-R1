@@ -6,7 +6,7 @@
 reproducing DeepSeek R1 Zero with Qwen2.5-0.5B on two 4090 GPUs
 
 ## Training Plots
-<img src="assets/plots.png" width="800">
+<img src="assets/output.png" width="800">
 
 ## Setup
 coming soon
