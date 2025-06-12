@@ -1,4 +1,4 @@
-# smolR1
+# Schema-R1
 
 <img src="assets/logo.png" width="400">
 
@@ -9,29 +9,15 @@ reproducing DeepSeek R1 Zero with Qwen2.5-0.5B on two 4090 GPUs
 <img src="assets/plots.png" width="800">
 
 ## Setup
-Create a virtual environment and install dependencies with 
-```bash
-pip install -r requirements.txt
-```
-
-
-For a two GPU setup, start vLLM first.
-
-```bash
-CUDA_VISIBLE_DEVICES=1 trl vllm-serve --model Qwen/Qwen2.5-0.5B
-```
-
-Then run training with
-
-```bash
-accelerate launch --config_file configs/deepspeed/zero3.yaml --num_processes 1 train.py
-```
+coming soon
 
 ## Evaluation
-Follow instructions in [`eval/README.md`](eval/README.md).
+coming soon
 
 ## Acknowledegments
 
-[simpleRL-Zoo](https://github.com/hkust-nlp/simpleRL-reason)
+[Smol-r1](https://github.com/rasdani/smolR1)
 
-[Qwen2.5 Math Evaluation](https://github.com/QwenLM/Qwen2.5-Math)
+[Open-r1](https://github.com/huggingface/open-r1)
+
+[DTS-SQL](https://github.com/MohammadrezaPourreza/DTS-SQL)
