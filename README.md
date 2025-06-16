@@ -26,6 +26,7 @@ pip install trl==0.18.0
 ```
 ## Training models
 cd Schema-R1 root
+
 Step 1: Cold start: 
 ```shell
 python /src/SFT/grpo_SFT_spider_COT.ipynb    
