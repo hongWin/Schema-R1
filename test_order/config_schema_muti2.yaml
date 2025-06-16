@@ -5,7 +5,7 @@ torch_dtype: bfloat16
 attn_implementation: flash_attention_2
 
 
-dataset_name: defined_in_source_code
+dataset_name: defined_in_source_code(grpo_schema.py)
 system_prompt: "You are a Schema linking assistant. Your task is to select appropriate table names and corresponding column names from the database in <database>...</database> based on the user's question in <question>...</question>. 
 Follow this response template: <think>\nYour Thought Process (Why were these choices made?)\n</think>\n<answer>\n###Tables: (Related Table);\n###Columns: (Related Columns from Tables);\n</answer>"
 dataset_prompt_column: problem
