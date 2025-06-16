@@ -16,7 +16,7 @@ Next, install vLLM and FlashAttention:
 ```shell
 pip install vllm==0.8.4
 pip install setuptools && pip install flash-attn --no-build-isolation
-Recommend manual download and installation [flash-attn](https://github.com/Dao-AILab/flash-attention/releases)
+#Recommend manual download and installation [flash-attn](https://github.com/Dao-AILab/flash-attention/releases)
 pip install swanlab==0.5.7 
 ```
 Tips, check the transformer version while fail to start VLLM:
