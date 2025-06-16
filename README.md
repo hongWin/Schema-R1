@@ -35,7 +35,7 @@ python /src/SFT/grpo_SFT_spider_COT.ipynb
 
 Step 2: GRPO training: 
 ```shell
-#Recommand 3*A100 40G for Qwn2.5-0.5B and 3*A100 80G for Qwen-2.5-1.5B
+#Recommend 3*A100 40G for Qwn2.5-0.5B and 3*A100 80G for Qwen-2.5-1.5B
 # Start VLLM
 CUDA_VISIBLE_DEVICES=0 trl vllm-serve --model src/SFT_model 
 
