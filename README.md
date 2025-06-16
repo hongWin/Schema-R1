@@ -1,5 +1,6 @@
 # Schema-R1
 [Our Paper](https://arxiv.org/abs/2506.11986)
+
 <img src="assets/logo.png" width="400">
 
 ## Training Plots
@@ -7,7 +8,7 @@
 
 ## Setup
 ```shell
-conda create -n schema-R1 python=3.11 && conda create activate schema-R1 && pip install --upgrade pip
+conda create -n schema-R1 python=3.11 && conda activate schema-R1 && pip install --upgrade pip
 ```
 
 Next, install vLLM and FlashAttention:
